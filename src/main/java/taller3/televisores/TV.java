@@ -86,6 +86,9 @@ public class TV {
 				this.volumen++;
 			}
 		}
+		else {
+			
+		}
 		
 	}
 	public void volumenDown() {
@@ -93,6 +96,9 @@ public class TV {
 			if(this.volumen<=7 && this.volumen>=0) {
 				this.volumen--;
 			}
+		}
+		else {
+			
 		}
 	}
 	
