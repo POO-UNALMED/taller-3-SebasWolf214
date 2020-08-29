@@ -35,10 +35,15 @@ public class Control {
 		this.getTv().canalDown();
 	}
 	public void volumenUp() {
-		this.getTv().volumenUp();
+		if(this.getTv().getEstado()==true) {
+			this.getTv().volumenUp();
+		}	
 	}
 	public void volumenDown() {
-		this.getTv().volumenDown();
+		if(this.getTv().getEstado()==true) {
+			this.getTv().volumenDown();
+		}
+		
 	}
 	public void setCanal(int canal) {
 		this.getTv().setCanal(canal);
