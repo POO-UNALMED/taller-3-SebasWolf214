@@ -97,7 +97,7 @@ public class TV {
 	public static int getNumTV() {
 		return numTV;
 	}
-	static void setNumTV(int numTV) {
+	public static void setNumTV(int numTV) {
 		TV.numTV = numTV;
 	}
 
