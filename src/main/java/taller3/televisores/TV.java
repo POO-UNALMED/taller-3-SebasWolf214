@@ -12,6 +12,7 @@ public class TV {
 	public TV(Marca mar, boolean est){
 		marca = mar;
 		estado =est;
+		numTV++;
 	}
 	public void setMarca(Marca marca) {
 		this.marca = marca;
